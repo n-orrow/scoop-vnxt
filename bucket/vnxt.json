@@ -1,0 +1,18 @@
+{
+    "version": "1.9.3",
+    "description": "Automated semantic version bumping CLI tool with changelog generation and git integration.",
+    "homepage": "https://vnxt.dev",
+    "license": "MIT",
+    "suggest": {
+        "Node.js": [ "main/nodejs" ]
+    },
+    "pre_install": "npm install -g vnxt@$version",
+    "bin": "vx",
+    "checkver": {
+        "url": "https://registry.npmjs.org/vnxt/latest",
+        "jsonpath": "$.version"
+    },
+    "autoupdate": {
+        "pre_install": "npm install -g vnxt@$version"
+    }
+}
