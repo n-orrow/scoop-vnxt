@@ -1,5 +1,5 @@
 {
-    "version": "1.9.3",
+    "version": "1.14.0",
     "description": "Automated semantic version bumping CLI tool with changelog generation and git integration.",
     "homepage": "https://vnxt.dev",
     "license": "MIT",
